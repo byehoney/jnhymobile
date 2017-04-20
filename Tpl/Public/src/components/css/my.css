@@ -1,0 +1,11 @@
+.home_list .am-card-header-content img{
+	border-radius: 50%;
+}
+.home_list .list-view-section-body{
+	background-color: rgb(245, 245, 249);
+	padding-top: 8px;
+	border-top: 1px solid rgb(236, 236, 237);
+}
+.home_list .row{
+	background: #fff;
+}

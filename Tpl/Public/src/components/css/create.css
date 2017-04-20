@@ -1,0 +1,89 @@
+#app{
+    margin-bottom: 70px;
+}
+.create_content{
+	padding: 0.25rem 0.2rem; 
+}
+.create_line{
+	display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    margin-bottom:0.2rem ;
+}
+.create_card {
+    background: url('../../images/sup.png') no-repeat 0 0;
+    background-size: 21%;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    border-radius: .15rem;
+    border: 1px solid #e5e5e5;
+    width: 50%;
+    text-align: center;
+}
+.create_card a{
+    color:#333;
+}
+.create_card.new{
+     background: url('../../images/new.png') no-repeat 0 0;
+     background-color: #fff;
+     background-size: 21%;
+}
+.create_card>p{
+    height:0.5rem;
+   margin-top: 0.3rem;
+}
+.create_card.l_crad{
+	margin-right: 0.05rem;
+}
+.create_card.r_crad{
+	margin-left: 0.05rem;
+}
+.act_data{
+    display: box;
+	display: -moz-box; 
+    display: -webkit-box; 
+    display: flex;
+    display: -moz-flex; 
+    display: -webkit-flex; 
+    margin-bottom: 0.05rem;
+    justify-content: space-around;
+}
+.act_data_left p:first-child,.act_data_right p:first-child{
+    color:#ef5522;
+}
+.act_data .divide{
+    border-right: 1px solid #e9e9e9;
+}
+.act_data p{
+    font-size: 0.25rem;
+    text-align: center;
+    line-height: 0.36rem;
+}
+.create_card img{
+    width: 1.5rem;
+    height:1.5rem;
+}
+.create_card .btn{
+    background-color: #ef5522;
+    color: #fff;
+    border: none;
+    margin: 0.16rem;
+    margin-bottom: 0.13rem;
+    font-size: 0.24rem;
+}
+.act_data .act_data_num{
+    color:#ef5522;
+}
+.create_title{
+    text-align: center;
+    font-size: 0.3rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.13rem;
+}
+.create_detail{
+    text-align: center;
+    font-size: 0.22rem;
+    margin-bottom: 0.1rem;
+    line-height: 0.27rem;
+    padding: 0 0.15rem;
+}

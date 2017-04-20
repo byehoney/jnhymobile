@@ -1,0 +1,84 @@
+html {
+  font-family: serif;
+  line-height: 1.15; /* 2 */
+  -ms-text-size-adjust: 100%; /* 3 */
+  -webkit-text-size-adjust: 100%; /* 3 */
+}
+body {
+  margin: 0;
+}
+#appBody{
+	font-size: .26rem;
+}
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+figcaption,
+figure,
+main { /* 1 */
+  display: block;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+a {
+  background-color: transparent; /* 1 */
+  -webkit-text-decoration-skip: objects; /* 2 */
+}
+a:active,
+a:hover {
+  outline-width: 0;
+}
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+b,
+strong {
+  font-weight: inherit;
+}
+b,
+strong {
+  font-weight: bolder;
+}
+.text-center {
+    text-align: center;
+}
+div.am-popup.am-popup-slide-up{
+  overflow: auto;
+}
+.row img{
+  height: 0.6rem;
+  width: 0.6rem;
+}
+div.am-flexbox.am-flexbox-align-middle{
+      text-align: center;
+    line-height: 0.32rem;
+}
+div.g-core-image-upload-btn{
+    width: 1.6rem;
+    height: 1.6rem;
+    border: 2px solid #cfcfcf;
+    border-radius: 10%;
+    margin-left: 0.2rem;
+    background: url(https://img.alicdn.com/imgextra/i2/2298316252/TB2DhfolSxjpuFjSszeXXaeMVXa-2298316252.png) no-repeat center;
+}

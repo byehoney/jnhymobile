@@ -1,0 +1,41 @@
+*{
+	padding:0;
+	margin:0;
+}
+.result-card{
+	background-color: #fff;
+	width:96%;
+	margin:0 auto;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+.result-card p{
+	line-height: 0.5rem;
+}
+.result-card .card_left{
+	align-self: center;
+	padding:20px;
+	text-align: left;
+}
+.result-card .card_right{
+	padding:20px;
+	text-align: right;
+	display: flex;
+	flex-direction: column;
+}
+.card_right .card_data_top{
+	border-bottom:3px dotted #ccc;
+	line-height: 0.5rem;
+	margin-bottom: 20px;
+}
+.result-card .card_right p{
+	font-size: 0.25rem;
+}
+.card_left img{
+	width:0.3rem;
+	height:0.3rem;
+	position: relative;
+	top:0.05rem;
+}

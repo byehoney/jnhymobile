@@ -1,0 +1,20 @@
+.ms_container .header .am-list-item .am-list-line .am-list-content{
+	padding-left: 43%;
+}
+.ms_container .errTip{
+	text-align: center;
+	padding: 0.1rem 0;
+	color:#ff5522;
+}
+.validRange.hq_validRange .am-list-item.am-input-item{
+	width:0.6rem;
+}
+.hq_validRange span,.hq_validRange  .am-list-item .am-input-control input{
+	font-size: 0.3rem;
+}
+.hq_validRange  .am-list-item .am-input-control input{
+	width:auto;
+}
+.shop_check .am-list-line{
+	padding-right: 0
+}
